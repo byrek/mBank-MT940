@@ -1,0 +1,172 @@
+mBank S.A.
+Bankowość Detaliczna
+Skrytka Pocztowa 2108
+90-959 Łódź 2
+mLinia +48 42 6 300 800
+www.mBank.pl
+                                                                         TECHNILINE SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ
+                                                                                               MICHAL.BYRECKI@TECHNILINE.COM
+
+
+              Wyciąg z rachunku mBiznes konto Standard za okres od 01-02-2025 do 28-02-2025
+
+
+
+
+                                                                                                              Sporządzono: RADOM, 03 MARCA 2025
+
+
+
+Opis rachunku
+
+
+
+_
+
+Rodzaj rachunku                         mBiznes konto Standard
+Waluta                                  PLN
+Nr rachunku                             48 1140 2004 0000 3402 8192 0685
+Data następnej kapitalizacji            31-03-2025
+Oprocentowanie rachunku                 0,00%
+Limit kredytu                           0,00
+Oprocentowanie kredytu                  0,00%
+
+    Podsumowanie obrotów na rachunku                   Liczba operacji             Wartość operacji
+
+    Uznania                                                                    4                      17 309,96
+
+    Obciążenia                                                                18                      -6 422,92
+
+    Łącznie                                                                   22                      10 887,04
+
+
+
+                                                              Operacje
+
+
+xxx
+                                                                                                                  Saldo początkowe: 6 028,20
+
+    Data operacji   Opis operacji                                                                     Kwota               Saldo po operacji
+    / księgowania
+
+    03-02-2025      PRZELEW WEWNĘTRZNY WYCHODZĄCY                                                             -1 788,32               4 239,88
+    03-02-2025      GRUPA MORELE.NET
+                    02114010810000354338001001
+                    mBank O/Korp./Kraków
+                    19031072, 19032499
+    03-02-2025      PRZELEW ZEWNĘTRZNY WYCHODZĄCY                                                             -2 182,76               2 057,12
+    03-02-2025      'WIP' S. J.
+                    76835100030019807130000010
+                    Bank Rumia Spółdz.
+                    ZO 02027/25
+    03-02-2025      OPŁATA PRZELEW ZEW.DOWOL.BIEŻĄCY                                                              -1,50               2 055,62
+    03-02-2025
+
+
+
+                                                                                                                                                  1/3
+Data operacji   Opis operacji                                                                Kwota               Saldo po operacji
+/ księgowania
+
+03-02-2025      OPŁATA ZA KARTĘ                                                                          -5,00              2 050,62
+04-02-2025      5478 XXXX XXXX 3865
+
+06-02-2025      PRZELEW ZEWNĘTRZNY WYCHODZĄCY                                                          -615,00              1 435,62
+06-02-2025      BIURO RACHUNKOWE MAŁGORZATA STĘPIEŃ
+                48203000451110000002568480
+                BNPPL DOP/Warszawa
+                OPŁATA ZA PROWADZENIE RACHUNKOWOŚCI
+06-02-2025      OPŁATA PRZELEW ZEW.ZDEF.BIEŻĄCY                                                          -1,50              1 434,12
+06-02-2025
+
+06-02-2025      PRZELEW ZEWNĘTRZNY PRZYCHODZĄCY                                                      15 375,00             16 809,12
+06-02-2025      A4V SP. Z O.O. INWESTYCYJNA 2 26-600 RADOM
+                35124057031111001103234947
+                PEKAO O./Radom
+                02/01/2025
+11-02-2025      PRZELEW ZEWNĘTRZNY DO ZUS                                                               -45,00             16 764,12
+11-02-2025      ZAKŁAD UBEZPIECZEŃ SPOŁECZNYCH
+                88600000020260017963007531
+                NBP ZUS Składki
+                NIP PŁATNIKA: WPŁATA NA IDENTYFIKATOR UZUP.: NIEZNANY NUMER: TYP WPŁATY:
+                DEKLARACJA: NUMER DEKLARACJI:
+11-02-2025      PRZELEW PODATKOWY                                                                      -439,00             16 325,12
+11-02-2025      URZĄD SKARBOWY CENTRUM ROZLICZENIOWE
+                51101000712222796300753100
+                NBP Centrala -B2B-2
+                TYP IDENT.: NIP IDENTYF.: 7963007531 OKRES ROZL.: 25M01 SYMBOL FORM.: CIT8
+                ZOBOWIĄZANIE:
+11-02-2025      PRZELEW ZEWNĘTRZNY WYCHODZĄCY                                                          -462,48             15 862,64
+11-02-2025      WURTH
+                63124069600424000311798802
+                PEKAO Centrala-OOR 4
+                4545456753
+11-02-2025      OPŁATA PRZELEW ZEW.DOWOL.BIEŻĄCY                                                         -1,50             15 861,14
+11-02-2025
+
+11-02-2025      PRZELEW ZEWNĘTRZNY WYCHODZĄCY                                                          -234,60             15 626,54
+11-02-2025      TME
+                40102033520000140202603231
+                PKOBP O/1 Łódź
+                1251071422
+11-02-2025      OPŁATA PRZELEW ZEW.ZDEF.BIEŻĄCY                                                          -1,50             15 625,04
+11-02-2025
+
+13-02-2025      PRZELEW ZEWNĘTRZNY WYCHODZĄCY                                                          -367,89             15 257,15
+13-02-2025      PAYPRO S.A. UL. PASTELOWA 8 60-198 POZNAŃ
+                74124062921111001114440900
+                PEKAO O./Warszawa
+                /OPT/X/////P24-G1T-N7H-Q5W INT-2025-2-00066
+13-02-2025      OPŁATA PRZELEW ZEW.DOWOL.BIEŻĄCY                                                         -1,50             15 255,65
+13-02-2025
+
+13-02-2025      PRZELEW ZEWNĘTRZNY WYCHODZĄCY                                                          -196,00             15 059,65
+13-02-2025      PAYPRO S.A. UL. PASTELOWA 8 60-198 POZNAŃ
+                74124062921111001114440900
+                PEKAO O./Warszawa
+                /OPT/X/////P24-G6T-N8H-W1Y ALLEGRO 21A2F847-EA0
+13-02-2025      OPŁATA PRZELEW ZEW.DOWOL.BIEŻĄCY                                                         -1,50             15 058,15
+13-02-2025
+
+13-02-2025      PRZELEW SEPA PRZYCHODZĄCY                                                              471,97              15 530,12
+13-02-2025      DE H ISIDOOR ESPEEL
+                BE85385004301106
+                Order No. X20 I01000000029395426
+17-02-2025      PRZELEW ZEWNĘTRZNY WYCHODZĄCY                                                           -76,37             15 453,75
+17-02-2025      PAYPRO S.A. UL. PASTELOWA 8 60-198 POZNAŃ
+                74124062921111001114440900
+                PEKAO O./Warszawa
+                /OPT/X/////P24-B3T-Q2H-H1H
+17-02-2025      OPŁATA PRZELEW ZEW.DOWOL.BIEŻĄCY                                                         -1,50             15 452,25
+17-02-2025
+
+24-02-2025      PRZELEW SEPA PRZYCHODZĄCY                                                               277,38             15 729,63
+24-02-2025      Marco Latorre
+                GB45REVO00997019770679
+                Order Y21 I01000000029432614
+26-02-2025      PRZELEW SEPA PRZYCHODZĄCY                                                             1 185,61             16 915,24
+26-02-2025      WEBER Yannick Nicolas
+                CH9408781000259073900
+                Z22 I01000000029440759
+
+
+                                                                                                                                       2/3
+ Data operacji    Opis operacji                                                                                                                               Kwota                           Saldo po operacji
+ / księgowania
+
+                                                                                                                                                                                           Saldo końcowe: 16 915,24
+
+xxx
+Środki zgromadzone na rachunku, którego wyciąg dotyczy są chronione przez obowiązkowy system gwarantowania depozytów.
+Niniejszy dokument sporządzono na podstawie art. 7 Ustawy Prawo Bankowe (Dz. U. Nr 140 z 1997 roku, poz.939 z późniejszymi zmianami).
+Nie wymaga podpisu ani stempla.
+W przypadku wystąpienia niezgodności w przesłanym zestawieniu w zakresie wykonywanych operacji na rachunku, salda rachunku, prosimy o kontakt z
+mLinią.
+
+
+
+
+                                  mBank S.A. ul. Prosta 18, 00-850 Warszawa, zarejestrowany przez Sąd Rejonowy dla m. st. Warszawy, XIII Wydział Gospodarczy Krajowego Rejestru Sądowego pod numerem KRS 0000025237,
+                                  posiadający numer identyfikacji podatkowej NIP: 526-021-50-88, o wpłaconym w całości kapitale zakładowym, którego wysokość wg stanu na dzień 01.01.2025 r. wynosi 169.987.892 złotych.   3/3
+
