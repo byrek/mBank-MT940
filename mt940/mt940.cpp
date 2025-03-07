@@ -5,20 +5,18 @@
 #include "QDebug"
 #include "QDateTime"
 #include "QRegularExpression"
+#include "QFileDialog"
+#include <QWidget>
+#include <QLabel>
+#include <QVBoxLayout>
+#include <QPushButton>
+#include <QApplication>
 
 MT940::MT940(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MT940)
 {
-
     ui->setupUi(this);
-
-    this->load_report();
-    if (this->parse()!=1) this->close();
-    if (this->regex()!=1) this->close();
-    this->translate();
-    this->save();
-
 }
 
 MT940::~MT940()
@@ -26,10 +24,31 @@ MT940::~MT940()
     delete ui;
 }
 
-
-int MT940::load_report(void)
+void MT940::menu(QAction *action)
 {
-    QFile raport("raport.csv");
+ if (action->text()=="Load report file")
+ {
+    QString file=QFileDialog::getOpenFileName(this,"Load report file","","CSV Files (*.csv)");
+    if (file.isEmpty()) return;
+    if (this->load_report(file)!=1) return;
+    if (this->parse()!=1) return;
+    if (this->regex()!=1) return;
+    if (this->translate()!=1) return;
+  }
+ else if (action->text()=="Save to MT940")
+ {
+     QString file=QFileDialog::getSaveFileName(this,"Save MT940 output to:","","MT940 files (*.sta)");
+     if (!file.isEmpty()) this->save(file);
+ }
+ else if (action->text()=="Exit")
+ {
+     this->close();
+ }
+}
+
+int MT940::load_report(QString file)
+{
+    QFile raport(file);
     if (!raport.open(QIODevice::ReadOnly)) { QMessageBox::information(0,"Error",raport.errorString()); return -1; }
     else
         {
@@ -57,29 +76,14 @@ int MT940::load_report(void)
             row_cnt++;
             }
         }
-    return 0;
+    raport.close();
+    return 1;
 }
 
 int MT940::parse(void)
 {
  //   QRegularExpression liczba("-?\\d*\\,\\d+");
     QRegularExpression spacje("\\s+");
-/*
-    //Szukamy salda pooczątkowego
-    search=ui->tLista->findItems(QString::fromUtf8("Saldo początkowe"), Qt::MatchContains);
-    if (search.isEmpty()) { qDebug()<<"Nie znaleziono salda początkowego\n"; return -1; }
-    else
-    {
-        this->saldo_poczatkowe.row= search.first()->row();
-        this->saldo_poczatkowe.col=search.first()->column();
-        qDebug()<<"Saldo początkowe"<<this->saldo_poczatkowe.row<<this->saldo_poczatkowe.col;
-        QString saldo=ui->tLista->item(this->saldo_poczatkowe.row, this->saldo_poczatkowe.col)->text();
-        saldo.replace(spacje,"");
-        QRegExp re("[^0-9\,]");
-        saldo=saldo.remove(re);
-        qDebug()<<saldo;
-    }
-*/
 
     //Szukamy Daty operacji
     QList <QTableWidgetItem *> search=ui->tLista->findItems("#Data operacji", Qt::MatchExactly);
@@ -334,16 +338,11 @@ while (!ui->tLista->item(i,0)->text().contains("GUNWO"))
     saldo_koncowe.append(data_operacji.toString("yyMMdd"));
     saldo_koncowe.append(ui->tLista->item(this->saldo.row+1,this->saldo.col)->text());
     ui->tWynik->setItem(row_cnt,1, new QTableWidgetItem(saldo_koncowe));
-
-
-
-
 return 1;
 }
 
-int MT940::save(void)
+int MT940::save(QString filename)
 {
-    QString filename = "MT940.txt";
     QFile file(filename);
     if (!file.open(QIODevice::WriteOnly)) { QMessageBox::information(0,"Error",file.errorString()); return -1; }
     QTextStream out(&file);

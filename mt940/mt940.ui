@@ -34,32 +34,6 @@
      </rect>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
-    <property name="geometry">
-     <rect>
-      <x>1340</x>
-      <y>370</y>
-      <width>87</width>
-      <height>26</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>+</string>
-    </property>
-   </widget>
-   <widget class="QPlainTextEdit" name="saldo_poczatkowe">
-    <property name="geometry">
-     <rect>
-      <x>1330</x>
-      <y>70</y>
-      <width>104</width>
-      <height>70</height>
-     </rect>
-    </property>
-    <property name="plainText">
-     <string>0,00</string>
-    </property>
-   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -70,15 +44,53 @@
      <height>23</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menuPlik">
+   <widget class="QMenu" name="menuFile">
     <property name="title">
-     <string>Plik</string>
+     <string>File</string>
     </property>
+    <addaction name="LoadReport"/>
+    <addaction name="actionSave_to_MT940"/>
+    <addaction name="actionExit"/>
    </widget>
-   <addaction name="menuPlik"/>
+   <addaction name="menuFile"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="LoadReport">
+   <property name="text">
+    <string>Load report file</string>
+   </property>
+  </action>
+  <action name="actionSave_to_MT940">
+   <property name="text">
+    <string>Save to MT940</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>menubar</sender>
+   <signal>triggered(QAction*)</signal>
+   <receiver>MT940</receiver>
+   <slot>menu(QAction*)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>56</x>
+     <y>13</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>51</x>
+     <y>73</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>menu(QAction*)</slot>
+ </slots>
 </ui>
